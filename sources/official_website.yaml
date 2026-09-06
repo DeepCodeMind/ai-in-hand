@@ -1,0 +1,93 @@
+anthropic:
+  - id: claude-news
+    type: origin
+    name: Claude News
+    url: www.anthropic.com/news
+    tags: ["claude","SOTA","website","llm"]
+    enabled: true
+    note: Claude News 官网
+
+  - id: claude-engineering
+    type: origin
+    name: Claude engineering
+    url: www.anthropic.com/engineerging
+    tags: ["claude","SOTA","website","llm"]
+    enabled: true
+    note: Claude Engineering 官网
+
+  - id: claude-research
+    type: origin
+    name: Claude research
+    url: www.anthropic.com/research
+    tags: ["claude","SOTA","website","llm"]
+    enabled: true
+    note: Claude Research 官网
+
+  - id: claude-blog-cc
+    type: origin
+    name: Claude blog cc
+    url: https://claude.com/blog-category/claude-code
+    tags: ["claude","SOTA","website","cc"]
+    enabled: true
+    note: Claude Blog CC 官网
+
+  - id: claude-blog-agents
+    type: origin
+    name: Claude blog agents
+    url: https://claude.com/blog-category/agents
+    tags: ["claude","SOTA","website","agents"]
+    enabled: true
+    note: Claude Blog Agents 官网
+
+  - id: claude-blog-announcements
+    type: origin
+    name: Claude blog agent
+    url: https://claude.com/blog-category/announcements
+    tags: ["claude","SOTA","website","announcements"]
+    enabled: true
+    note: Claude Blog Announcements 官网
+
+  - id: claude-blog-enterprise-ai
+    type: origin
+    name: Claude blog enterprise ai
+    url: https://claude.com/blog-category/enterprise-ai
+    tags: ["claude","SOTA","website","enterprise-ai"]
+    enabled: true
+    note: Claude Blog Enterprise-AI 官网
+
+openai:
+- id: openai-news
+    type: rss
+    name: OpenAI News & Research
+    url: https://openai.com/news/rss.xml
+    tags: ["llm","gpt","research","announcement"]
+    priority: 2
+    enabled: true
+    note: OpenAI 新闻&研究博客
+
+deepmind:
+  - id: deepmind-blog
+    type: rss
+    name: Google DeepMind Blog
+    url: https://deepmind.google/blog/feed/basic/
+    tags: ["llm","gemini","research","multimodal"]
+    enabled: true
+    note: Google DeepMind 博客
+
+huggingface:
+  - id: huggingface-blog
+    type: rss
+    name: HuggingFace Official Blog
+    url: https://huggingface.co/blog/feed.xml
+    tags: ["opensource","llm","tools","community"]
+    enabled: true
+    note: HuggingFace 官方博客
+
+google:
+  - id: google-glean
+    type: rss
+    name: Glean Blog
+    url: https://www.glean.com/blog
+    tags: ["context","llm","google"]
+    enabled: true
+    note: Glean 官方博客

@@ -1,0 +1,75 @@
+simonwillison:
+  - id: simonwillison-everything
+    type: origin
+    name: Simon Willison Everything
+    url: https://simonwillison.net/atom/everything/
+    tags: ["kol","Simon Willison","blog"]
+    enabled: true
+    note: Simon Willison Everything (全量，最常用，包含长文、短笔记、链接摘录、语录)
+
+  - id: simonwillison-everything-but-beats
+    type: origin
+    name: Simon Willison Everything But Beats
+    url: https://simonwillison.net/atom/everything-but-beats/
+    tags: ["kol","Simon Willison","blog"]
+    enabled: true
+    note: Simon Willison Everything (排除简短 beats 碎片)
+
+  - id: simonwillison-entries
+    type: origin
+    name: Simon Willison Entries
+    url: https://simonwillison.net/atom/entries/
+    tags: ["kol","Simon Willison","blog"]
+    enabled: true
+    note: Simon Willison Everything (只有正式长博客文章)
+
+hansong:
+  - id: blog-hansong
+    type: rss
+    name: 汉松札记（独立博客）
+    url: https://blog.xiaohansong.com/atom.xml
+    tags: ["agent","harness","llm‑engineering","chinese‑thinker"]
+    enabled: true
+    note: 汉松独立博客
+
+zara:
+  - id: blog-zara
+    type: origin
+    name: 张睿博客
+    url: https://x.com/zarazhangrui
+    tags: ["zara","lark","ai native organization"]
+    enabled: true
+    note: zara 的twitter
+
+ninehills:
+  - id: blog-ninehills-jiuyuanshan
+    type: github_repo_issue
+    name: 九原山（AI方寸山）
+    url: https://ninehills.tech/
+    tags: ["agent","llm‑infer","quantization","chinese‑thinker"]
+    enabled: true
+
+karpathy:
+  - id: x-karpathy
+    type: origin
+    name: karpathy
+    url: https://x.com/karpathy
+    tags: ["kol","vibe coding"]
+    enabled: true
+
+jarredsumner:
+  - id: x-jarredsumner
+    type: origin
+    name: Jarred Sumner
+    url: https://x.com/jarredsumner
+    tags: ["kol"]
+    enabled: true
+
+https://x.com/dotey
+dotey:
+  - id: x-dotey
+    type: origin
+    name: 宝玉 dotey
+    url: https://x.com/dotey
+    tags: ["kol"]
+    enabled: true
