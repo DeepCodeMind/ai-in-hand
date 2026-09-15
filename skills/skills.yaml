@@ -1,0 +1,38 @@
+officetool:
+  - id: zara-whiteboard
+    name: Zara Whiteboard Skill
+    url: https://github.com/zarazhangrui/beautiful-feishu-whiteboard
+    tags: ["zara","feishu","whiteboard"]
+    enabled: true
+    note: SVG 白板Skill，用自然语言描述你想要的内容，自动生成一张美观、可编辑的飞书白板（写入飞书文档，不是截图）
+
+  - id: government-document
+    name: Government Document
+    url: https://github.com/Liuxiangjian-ai/official-document-skill
+    tags: ["government"]
+    note: 公文写作Skill,让 AI 像体制内笔杆子一样，面向中文公文、政务应用文和机关材料写作的Skill，基于数百篇人民日报等期刊的文章总结而成。它会根据用户提供的文种、场景、对象和材料，生成结构规范、语气稳妥、内容具体、少 AI 味、可直接交付的文本。
+
+development:
+  - id: superpowers
+    name: superpowers
+    url: https://github.com/obra/superpowers
+    tags: ["AI Coding"]
+    note: 我们怎样避免实现过程失控？用强制工作流约束 Agent 的行为
+
+  - id: matpocock-grill-me
+    name: Mattpocock-Grill-Me
+    url: https://github.com/mattpocock/skills
+    tags: ["AI Coding"]
+    note: 苏格拉底式认识论：我们真的想清楚了吗？用质询消灭隐含假设,一个需求最大的风险，不是 Agent 不会写，而是人自己没有意识到需求中存在多少未决问题。
+
+  - id: mattpocock-teach
+    name: Mattpocock-Teach
+    url: https://github.com/mattpocock/skills
+    tags: ["productivity"]
+    note: 系统学习一个领域数周；学习当前代码仓库teach，并把仓库作为重要资料来源
+
+  - id: archify
+    name: Archify
+    url: https://github.com/tt-a1i/archify
+    tags: ["HTML", "AI Coding"]
+    note: 在对话里，把代码仓库或系统描述变成漂亮、可靠、可交互的系统地图。
