@@ -65,7 +65,6 @@ jarredsumner:
     tags: ["kol"]
     enabled: true
 
-https://x.com/dotey
 dotey:
   - id: x-dotey
     type: origin
@@ -73,3 +72,15 @@ dotey:
     url: https://x.com/dotey
     tags: ["kol"]
     enabled: true
+
+
+podcast:
+  - id: zhangxiaojun
+    type: youtube-podcast
+    name: 张小峻
+    url: https://www.youtube.com/@xiaojunpodcast/videos
+
+  - id: lizheng
+    type: youtube-podcast
+    name: 课代表立正
+    url: https://www.youtube.com/@kedaibiao/videos
